@@ -13,6 +13,10 @@ public class Character : MonoBehaviour
     protected Animator anim;
     protected Rigidbody2D rb;
 
+    public void Initialize(int startHealth)
+    {
+
+    }
     public void TakeDamage(int damage)
     {
         Health -= damage;
@@ -41,9 +45,5 @@ public class Character : MonoBehaviour
         {
 
         }
-    }
-    public void Intialize(int amount) 
-    { 
-
     }
 }
